@@ -1,4 +1,4 @@
- Howdy, bot builder!
+# Howdy, bot builder!
 ## When you see "Show Live" in the upper left corner, your new bot app is live.
 ## Click the sunglasses to view your app, then go back to [Botkit Studio](https://studio.botkit.ai) to finish up.
 

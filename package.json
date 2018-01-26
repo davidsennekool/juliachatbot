@@ -1,20 +1,36 @@
 {
-  "name": "julia-chatbot",
-  "version": "1.0.0",
+  "name": "botkit-starter-facebook",
+  "version": "0.0.2",
+  "description": "A starter kit for building a custom Facebook Messenger bot with Botkit Studio",
+  "main": "bot.js",
   "scripts": {
-    "start": "node ./messenger_bot_botkit.js"
+    "start": "node bot.js"
   },
   "dependencies": {
-    "dotenv": "^2.0.0",
-    "janis": "^0.0.33",
-    "botkit": "^0.6.7"
+    "body-parser": "^1.15.2",
+    "botkit": "^0.6",
+    "botkit-studio-metrics": "^0.0.1",
+    "debug": "^2.6.0",
+    "express": "^4.14.0",
+    "node-env-file": "^0.1.8",
+    "request": "^2.79.0",
+    "wordfilter": "^0.2.6"
   },
-  "engines": {
-    "node": "5.11.1"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/janis-ai/janis-npm.git"
+    "url": "https://github.com/howdyai/botkit-starter-facebook.git"
   },
-  "license": "BSD-3-Clause"
+  "bugs": {
+    "url": "https://github.com/howdyai/botkit-starter-facebook/issues"
+  },
+  "homepage": "https://github.com/howdyai/botkit-starter-facebook",
+  "keywords": [
+    "bots",
+    "chatbots",
+    "Facebook",
+    "Messenger"
+  ],
+  "author": "ben@howdy.ai",
+  "license": "ISC"
 }
