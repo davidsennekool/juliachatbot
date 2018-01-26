@@ -73,8 +73,13 @@ controller.hears(['help', 'operator', 'human', 'start chat'], 'message_received'
 });
 
 // give the bot something to listen for.
-controller.hears(['hi'], 'message_received', function(bot, message) {
+controller.hears(['hi', 'hello', 'hai', 'hallo', 'good morning'], 'message_received', function(bot, message) {
     bot.reply(message,'Hello there.');
+});
+
+// listen to 'koop huis'
+controller.hears(['ik zou graag en huis willen kopen', 'koop huis', 'zoek huis'], 'message_received', function(bot, message) {
+    bot.reply(message,'Ik zal kijken welke huizen te koop staan.');
 });
 
 // Handle receiving a message.
